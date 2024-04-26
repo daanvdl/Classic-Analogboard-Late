@@ -12,7 +12,7 @@ This is a 1-1 reproduction of the Classic II analog board 820-0525-A / 630-0525,
 
 Somewhere during the development of the Classic II Apple changed the CRT yoke type. There are two different yokes which were used during that time, and they are not interchangeable. This replica is using the **B-TYPE** yoke, which is the right one in this photo.  Though It may be possible to interchange the entire yoke on the CRT, but i have not test this.
 
-.<img src="Images/yokes.webp" style="zoom:50%;" />
+<img src="Images/yokes.webp" style="zoom:50%;" />
 
 ## Board
 
