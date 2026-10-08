@@ -1,10 +1,12 @@
 # Macintosh Classic (II) Analogboard recreation
 
-This is a tested and working analog board recreation of the Macintosh Classic II analog board (820-0525-A). The provided files are licensed under CC-BY-NC-SA - they are NOT intended for commercial use
+This is a tested and working analog board recreation of the Macintosh Classic II analog board. The provided files are licensed under CC-BY-NC-SA - they are NOT intended for commercial use
 
 ## General
 
-This is a 1-1 reproduction of the Classic II analog board 820-0525-A / 630-0525, "late" revision.
+This is a 1-1 reproduction of the Classic II analog board / 630-0525 (820-0525-A) / 630-0560, "late" revision.
+
+Both versions use the same PCB layout. This has been confirmed by physically comparing the original boards side by side. Interestingly, the 630-0560 board has a factory-applied "630-0560" sticker covering the original "630-0525" silkscreen marking, confirming that both versions share the same base PCB.
 
 <img src="/Images/board.png" style="zoom:50%;" />
 
@@ -36,7 +38,7 @@ these tables.
 
 ## BOM
 
-This is a BOM for the 820-0525-A / 630-0525, "late" revision board. 
+This is a BOM for the 820-0525-A / 630-0525 / 630-0560, "late" revision board. 
 *Although I have done my utmost to ensure an accurate list, I cannot rule out that there are errors in the BOM. Use at your own risk*
 
 | Ref  | Part/Value                 | Comment                       |
@@ -63,7 +65,7 @@ This is a BOM for the 820-0525-A / 630-0525, "late" revision board.
 | CL9  | 470pF (471)                |                               |
 | CL10 | 1.4uF placed               | 3.9uF  on schematic           |
 | CL11 | 47uF/16V                   | UVZ1E470MDD1TA                |
-| CP1  | 220uF/250V                 | UVZ2E221MRD                   |
+| CP1  | 220uF/400V                 | LGW2W221MELZ40 / 861011484013 |
 | CP2  | 470uF/50V                  | UPW1H471MHD                   |
 | CP3  | 10uF/25V                   | UVZ1E100MDD1TA                |
 | CP4  | 47uF/25V                   | UVZ1E470MDD1TA                |
